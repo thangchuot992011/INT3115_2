@@ -15,7 +15,7 @@
         require_once($commonFolder . "/metadata.php");
         require_once($mainDir . '/constant/streamline/constant.php');
     ?>
-    <link rel="stylesheet" type="text/css" href="<?php echo STREAMLINE_ASSETS . '/css/draft/items.css';?>" />
+    <!-- <link rel="stylesheet" type="text/css" href="<?php echo STREAMLINE_ASSETS . '/css/draft/items.css';?>" /> -->
     <link rel="stylesheet" type="text/css" href="<?php echo STREAMLINE_ASSETS . '/css/css/bootstrap.min.css';?>" />
     <link rel="stylesheet" type="text/css" href="<?php echo STREAMLINE_ASSETS . '/css/css/font-awesome.min.css';?>" />
     <link rel="stylesheet" type="text/css" href="<?php echo STREAMLINE_ASSETS . '/css/css/JKS-icons.css';?>" />
@@ -26,6 +26,9 @@
     <link rel="stylesheet" type="text/css" href="<?php echo STREAMLINE_ASSETS . '/css/css/zerogrid.css';?>" />
     <link rel="stylesheet" type="text/css" href="<?php echo STREAMLINE_ASSETS . '/css/css/style.css';?>" />
     <link rel="stylesheet" type="text/css" href="<?php echo STREAMLINE_ASSETS . '/css/css/loader.css';?>" />
+	<link rel="stylesheet" type="text/css" href="<?php echo STREAMLINE_ASSETS . '/css/common/common.css';?>" />
+    <link rel="stylesheet" type="text/css" href="<?php echo STREAMLINE_ASSETS . '/css/common/header.css';?>" />
+    <link rel="stylesheet" type="text/css" href="<?php echo STREAMLINE_ASSETS . '/css/common/footer.css';?>" />
     <title>Nhom01</title>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
