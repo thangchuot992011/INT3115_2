@@ -3,9 +3,9 @@
         <div class="main-menu">
             <nav class="main-nav">
                 <ul>
-                    <li><a href="./index.php">Trang chủ</a></li>
+                    <li><a href="<?php echo $GLOBALS['mainDir'] . '/index.php';?>">Trang chủ</a></li>
                     <li><a href="#">Giới thiệu</a></li>
-                    <li><a href="./items.php">Hiện vật</a></li>
+                    <li><a href="<?php echo $GLOBALS['mainDir'] . '/items.php';?>">Hiện vật</a></li>
                 </ul>
             </nav>
         </div>
