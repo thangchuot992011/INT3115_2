@@ -84,7 +84,24 @@
     color: #fff;
 }
 
+.main-container .visit-area .ctn-visit .btn-visit {
+    background-color: #E4B33D;
+    padding: 16px 16px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
 
+.main-container .visit-area .ctn-visit .btn-visit:hover {
+    background-color: #111;
+    color: #E4B33D;
+    border-color: #E4B33D;
+}
+
+.main-container .visit-area .ctn-visit p {
+    font-size: 1rem;
+}
 
 
 
