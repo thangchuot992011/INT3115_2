@@ -1,34 +1,40 @@
 {
     "listItems":[
         {
-            "title":"Ấn Vĩnh Trân Chi Bảo",
+            "title":"Ấn Sắc Mệnh Chi Bảo",
             "description":"",
-            "thumbnail":"/images/an_vinh_tran_chi_bao.jpg"
+            "thumbnail":"/images/an_vinh_tran_chi_bao.jpg",
+            "trealet": "./teststreamline/?trealet=albums/nhom01/app/streamline/streamline_an_sac_menh_chi_bao.trealet"
         },
         {
             "title":"Chuông Vân Bàn",
             "description":"",
-            "thumbnail":"/images/chuong_van_ban.jpg"
+            "thumbnail":"/images/chuong_van_ban.jpg",
+            "trealet": "./teststreamline/?trealet=albums/nhom01/app/streamline/streamline_chuong_van_ban.trealet"
         },
         {
-            "title":"Sách Đế Hệ Thi",
+            "title":"Kim Sách Đế Hệ Thi",
             "description":"",
-            "thumbnail":"/images/sach_de_he_thi.jpg"
-        },
-        {
-            "title":"Thạp Đào Thịnh",
-            "description":"",
-            "thumbnail":"/images/thap_dao_thinh.jpg"
-        },
-        {
-            "title":"Trống Hoàng Hạ",
-            "description":"",
-            "thumbnail":"/images/trong_hoang_ha.jpg"
+            "thumbnail":"/images/sach_de_he_thi.jpg",
+            "trealet": "./teststreamline/?trealet=albums/nhom01/app/streamline/streamline_kim_sach_de_he_thi.trealet"
         },
         {
             "title":"Trống Ngọc Lũ",
             "description":"",
-            "thumbnail":"/images/trong_ngoc_lu.jpg"
+            "thumbnail":"/images/trong_ngoc_lu.jpg",
+            "trealet": "./teststreamline/?trealet=albums/nhom01/app/streamline/streamline_trong_ngoc_lu.trealet"
+        },
+        {
+            "title":"Ấn Môn Hạ Sảnh Ấn",
+            "description":"",
+            "thumbnail":"/images/an-mon-ha-sanh-an.jpg",
+            "trealet": "./teststreamline/?trealet=albums/nhom01/app/streamline/streamline_an_mon_ha_sanh_an.trealet"
+        },
+        {
+            "title":"Mộ thuyền Việt Khê",
+            "description":"",
+            "thumbnail":"/images/mo-thuyen-viet-khe.jpg",
+            "trealet": "./teststreamline/?trealet=albums/nhom01/app/streamline/streamline_mo_thuyen_viet_khe.trealet"
         }
     ]
 }

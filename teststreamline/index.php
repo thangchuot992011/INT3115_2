@@ -41,13 +41,13 @@
         <section id="button-link-web">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="#">Vertical Navbar</a>
+                    <!-- <a class="navbar-brand" href="#">Vertical Navbar</a> -->
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto flex-column vertical-nav">
+                        <ul class="navbar-nav mr-auto flex-column vertical-nav fomat-nav">
                             <li class="nav-item">
                                 <a class="nav-link" href="#welcome">Giới thiệu</a>
                             </li>
@@ -102,7 +102,7 @@
                                             <div class="col-3-5 bachground-color-image d-flex align-items-center ">
                                                 <div class="wrap-col first">
                                                     <div class="item-container">
-                                                        <img class="image-fix-size" src="<?php echo $imageItems[0]; ?>" alt="cook"/>
+                                                        <img class="image-fix-size" onclick="imgClick(this)" src="<?php echo $imageItems[0]; ?>" alt="<?php echo $trealetData["title"];?>"/>
                                                     </div>
                                                 </div>
                                             </div>
@@ -111,7 +111,7 @@
                                             <div class="col-1-5 bachground-color-image">
                                                 <div class="wrap-col first ">
                                                     <div class="item-container">
-                                                        <img class="image-fix-size" src="<?php echo $imageItems[$i]; ?>" alt="cook"/>
+                                                        <img class="image-fix-size" onclick="imgClick(this)" src="<?php echo $imageItems[$i]; ?>" alt="<?php echo $trealetData["title"];?>"/>
                                                     </div>
                                                 </div>
                                             </div>
@@ -148,6 +148,13 @@
         </section>
         <?php require_once($commonFolder . "/footer.php");?>
     </div>
+    <!-- chỗ này dùng để show full màn hình ảnh hiện vật -->
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
     <?php require_once($commonFolder . "/scripts.php");?>
+    <script src="<?php echo STREAMLINE_ASSETS . '/js/streamline/index.js';?>"></script>
 </body>
 </html>

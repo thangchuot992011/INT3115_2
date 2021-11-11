@@ -1,4 +1,5 @@
 <?php
+    $mainDir = '.';
     require_once('./lib/customFunc.php');
     $sourceFile = __DIR__ . '/tempscripts/list-notable-items.json';
     $listItems = getItemsFromJSON($sourceFile);
@@ -11,6 +12,7 @@
         require_once($commonFolder . "/metadata.php");
         require_once("./constant/main/constant.php");
     ?>
+    <link rel="stylesheet" type="text/css" href="<?php echo MAIN_ASSETS . '/css/css/font-awesome.min.css';?>" />
     <link rel="stylesheet" href="<?php echo MAIN_ASSETS . '/css/common/common.css';?>" />
     <link rel="stylesheet" href="<?php echo MAIN_ASSETS . '/css/common/header.css';?>" />
     <link rel="stylesheet" href="<?php echo MAIN_ASSETS . '/css/common/footer.css';?>" />
@@ -37,7 +39,12 @@
             </div>
         </div>
         <div class="ctn-items container">
-            <h2 class="ctn-items-title">Hiện vật tiêu biểu</h2>
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="heading text-center ctn-items-title">Hiện vật tiêu biểu</h2>
+                    <hr class="heading_space">
+                </div>
+            </div>
             <div class="row">
                 <?php
                     $countItems = count($listItems);
@@ -45,12 +52,12 @@
                 <div class="col-lg-4 col-6">
                     <div class="nhom01-item">
                         <!-- href đến file trealet của hiện vật -->
-                        <a href="#" class="item-img">
+                        <a href="<?php echo $listItems[$i]['trealet'];?>" class="item-img">
                             <img src="<?php echo MAIN_ASSETS . $listItems[$i]['thumbnail']?>" />
                         </a>
                         <h3 class="item-title">
                             <!-- href đến file trealet của hiện vật -->
-                            <a href="#" class="item-title-link"><?php echo $listItems[$i]['title'] ?></a>
+                            <a href="<?php echo $listItems[$i]['trealet'];?>" class="item-title-link"><?php echo $listItems[$i]['title'] ?></a>
                         </h3>
                     </div>
                 </div>
@@ -89,6 +96,32 @@
 								Sunday Closed
                             </p>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="feature_wrap visit-area padding-half">
+            <div class="ctn-visit container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2 class="heading" style="font-size: 28px;">Tham quan</h2>
+                        <hr class="heading_space">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 feature text-center">
+                        <a class="btn btn-visit btn-register" href="#" role="button">
+                            <!-- <i class="fa fa-calendar" aria-hidden="true"></i> -->
+                            Đăng ký tham quan
+                        </a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="col-md-6 col-sm-12 feature text-center">
+                        <a class="btn btn-visit btn-buyticket" href="#" role="button">
+                            <!-- <i class="fa fa-ticket"></i> -->
+                            Mua vé trực tuyến
+                        </a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                 </div>
             </div>

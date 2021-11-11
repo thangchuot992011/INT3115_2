@@ -1,4 +1,5 @@
-<?php 
+<?php
+    $mainDir = '.';
     require_once('./lib/customFunc.php');
     $sourceAllItems = __DIR__ . '/tempscripts/list-all-items.json';
     $sourceNotableItems = __DIR__ . '/tempscripts/list-notable-items.json';
@@ -53,7 +54,12 @@
             </a>
         </div>
         <div class="ctn-items container" style="margin-top: 1.5rem">
-            <h2 class="ctn-items-title">Danh sách hiện vật</h2>
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="heading text-center ctn-items-title">Danh sách hiện vật</h2>
+                    <hr class="heading_space">
+                </div>
+            </div>
             <div class="row">
             <?php
                 $countAllItems = count($listAllItems);
@@ -61,12 +67,12 @@
                 <div class="col-lg-4 col-6">
                     <div class="nhom01-item">
                         <!-- href đến file trealet của hiện vật -->
-                        <a href="#" class="item-img">
+                        <a href="<?php echo $listAllItems[$i]['trealet'];?>" class="item-img">
                             <img src="<?php echo MAIN_ASSETS . $listAllItems[$i]['thumbnail']?>" />
                         </a>
                         <h3 class="item-title">
                             <!-- href đến file trealet của hiện vật -->
-                            <a href="#" class="item-title-link"><?php echo $listAllItems[$i]['title'] ?></a>
+                            <a href="<?php echo $listAllItems[$i]['trealet'];?>" class="item-title-link"><?php echo $listAllItems[$i]['title'] ?></a>
                         </h3>
                     </div>
                 </div>
