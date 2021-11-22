@@ -1,0 +1,13 @@
+{
+	"trealet":{
+		"exec":"streamline",
+		"title":"Khám phá thiên nhiên kỳ thú",
+		"desc":"Ut ut ipsum quis augue vulputate pharetra. Interdum et malesuada fames ac ante ipsum primis in faucibus",
+		"opening-hours":"Mon - Fri: 08.00am to 06.00pm Sat: 10.00am to 04.00 pm Sunday Closed",
+		"exhibition":"Mon - Fri: 08.00am to 06.00pm Sat: 10.00am to 04.00 pm Sunday Closed",
+		"upcoming-events":"Mon - Fri: 08.00am to 06.00pm Sat: 10.00am to 04.00 pm Sunday Closed",
+		"registration-desc":"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae. Aliquam non fermentum metus.",
+		"buyonline-desc":" Mauris euismod est eget augue fermentum, id interdum urna auctor. Vestibulum sed aliquet augue, nec auctor est. In interdum elit ut suscipit porttitor.",
+		"banner-src":"/images/163.jpg"
+	}
+}

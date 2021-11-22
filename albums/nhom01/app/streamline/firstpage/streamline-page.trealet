@@ -1,0 +1,13 @@
+{
+	"trealet":{
+		"exec":"streamline",
+		"title":"Khám phá các di sản văn hóa",
+		"desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.  sed do eiusmod tempor incididunt..",
+		"opening-hours":"Mon - Fri: 10.00am to 05.00pm Sat: 12.00pm to 03.00 pm Sunday Closed",
+		"exhibition":"Mon - Fri: 10.00am to 05.00pm Sat: 12.00pm to 03.00 pm Sunday Closed",
+		"upcoming-events":"Mon - Fri: 10.00am to 05.00pm Sat: 12.00pm to 03.00 pm Sunday Closed",
+		"registration-desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"buyonline-desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"banner-src":"/images/header-bg.jpg"
+	}
+}
