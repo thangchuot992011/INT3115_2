@@ -1,8 +1,10 @@
 <?php
+    // bổ sung thêm tham số page để xem là load page nào
+    $page = isset($_GET['page']) ? $_GET['page'] : '';
     $mainDir = '.';
     require_once('./lib/customFunc.php');
-    $sourceAllItems = __DIR__ . '/tempscripts/list-all-items.json';
-    $sourceNotableItems = __DIR__ . '/tempscripts/list-notable-items.json';
+    $sourceAllItems = __DIR__ . '/tempscripts' . '/' . $page . '/list-all-items.json';
+    $sourceNotableItems = __DIR__ . '/tempscripts' . '/' . $page . '/list-notable-items.json';
     $listAllItems = getItemsFromJSON($sourceAllItems);
     $listNotableItems = getItemsFromJSON($sourceNotableItems);
 ?>

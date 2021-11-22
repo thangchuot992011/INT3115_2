@@ -1,17 +1,19 @@
 <?php
     $mainDir = '.';
-    require_once('./lib/customFunc.php');
-    $sourceFile = __DIR__ . '/tempscripts/list-notable-items.json';
-    $listItems = getItemsFromJSON($sourceFile);
+    require_once($mainDir . '/lib/customFunc.php');
+    $commonFolder = __DIR__ . '/common';
+    require_once($commonFolder . "/metadata.php");
+    require_once($mainDir . '/constant/main/constant.php');
+    // bổ sung thêm tham số page để xem là load page nào (đơn vị nào)
+    $page = isset($_GET['page']) ? '/' . $_GET['page'] : '';
+    $customPageSrc = MAIN_TREALET_FOLDER . '/streamline' . $page . '/streamline-page.trealet';
+    $sourceItems = __DIR__ . '/tempscripts' . '/' . $page . '/list-notable-items.json';
+    $listItems = getItemsFromJSON($sourceItems);
+    $pageInfo = loadCustomPageInfo($customPageSrc);
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <?php 
-        $commonFolder = __DIR__ . '/common';
-        require_once($commonFolder . "/metadata.php");
-        require_once("./constant/main/constant.php");
-    ?>
     <link rel="stylesheet" type="text/css" href="<?php echo MAIN_ASSETS . '/css/css/font-awesome.min.css';?>" />
     <link rel="stylesheet" href="<?php echo MAIN_ASSETS . '/css/common/common.css';?>" />
     <link rel="stylesheet" href="<?php echo MAIN_ASSETS . '/css/common/header.css';?>" />
@@ -21,18 +23,15 @@
 </head>
 <body>
     <div class="main-container">
-        <?php 
-            require_once($commonFolder . "/header.php");
-        ?>
+        <?php require_once($commonFolder . "/header.php"); ?>
         <div class="banner-area">
+            <img class="banner-bg" src="<?php echo MAIN_ASSETS . $pageInfo['banner-src'];?>"/>
             <div class="overlay overlay-bg"></div>
             <div class="container ctn-banner">
                 <div class="row d-flex justify-content-center align-items-center">
                     <div class="banner-content col-lg-8">
-                        <h1 class="banner-title">Khám phá các di sản văn hóa</h1>
-                        <p class="banner-description pt-3 pb-3">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.  sed do eiusmod tempor incididunt..
-                        </p>
+                        <h1 class="banner-title"><?php echo $pageInfo['title'];?></h1>
+                        <p class="banner-description pt-3 pb-3"><?php echo $pageInfo['desc'];?></p>
                         <a href="./items.php" class="btn-start text-uppercase">Bắt đầu</a>
                     </div>
                 </div>
@@ -70,31 +69,19 @@
                     <div class="col-lg-4">
                         <div class="item-event">
                             <h4 class="item-event-title">Giờ mở cửa</h4>
-                            <p class="item-event-description">
-                                Mon - Fri: 10.00am to 05.00pm
-								Sat: 12.00pm to 03.00 pm
-								Sunday Closed
-                            </p>
+                            <p class="item-event-description"><?php echo $pageInfo['opening-hours'];?></p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="item-event">
                             <h4 class="item-event-title">Triển lãm</h4>
-                            <p class="item-event-description">
-                                Mon - Fri: 10.00am to 05.00pm
-								Sat: 12.00pm to 03.00 pm
-								Sunday Closed
-                            </p>
+                            <p class="item-event-description"><?php echo $pageInfo['exhibition'];?></p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="item-event">
                             <h4 class="item-event-title">Sự kiện</h4>
-                            <p class="item-event-description">
-                                Mon - Fri: 10.00am to 05.00pm
-								Sat: 12.00pm to 03.00 pm
-								Sunday Closed
-                            </p>
+                            <p class="item-event-description"><?php echo $pageInfo['upcoming-events'];?></p>
                         </div>
                     </div>
                 </div>
@@ -114,14 +101,14 @@
                             <!-- <i class="fa fa-calendar" aria-hidden="true"></i> -->
                             Đăng ký tham quan
                         </a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p><?php echo $pageInfo['registration-desc'];?></p>
                     </div>
                     <div class="col-md-6 col-sm-12 feature text-center">
                         <a class="btn btn-visit btn-buyticket" href="#" role="button">
                             <!-- <i class="fa fa-ticket"></i> -->
                             Mua vé trực tuyến
                         </a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p><?php echo $pageInfo['buyonline-desc'];?></p>
                     </div>
                 </div>
             </div>
