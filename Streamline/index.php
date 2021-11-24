@@ -39,7 +39,7 @@
         <?php require_once($commonFolder . "/header.php");?>
         <!--Welcome-->
         <div class="row">
-            <div class="col-1">
+            <div class="col-2 col-xl-1">
                 <section id="button-link-web">
                     <div class="container">
                         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -66,7 +66,7 @@
                     </div>
                 </section>
             </div>
-            <div class="col-11">
+            <div class="col-10 col-xl-11">
                 <section id="welcome" class="padding">
                     <div class="container">
                         <div class="row">
@@ -91,13 +91,13 @@
                 <section id="image" class="padding bg_grey">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-12">
+                            <div class="col-12">
                                 <h2 class="heading">Hình Ảnh</h2>
                                 <hr class="heading_space">
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-12 grid_layout">
+                            <div class="col-12 grid_layout">
                                 <div class="row">
                                     <div class="zerogrid">
                                         <div class="wrap-container">
@@ -133,7 +133,7 @@
                 <section id="video" class="bg_grey padding">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-12">
+                            <div class="col-12">
                                 <h2 class="heading">Video</h2>
                                 <hr class="heading_space">
                             </div>
