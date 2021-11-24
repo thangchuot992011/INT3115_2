@@ -39,7 +39,7 @@
         <?php require_once($commonFolder . "/header.php");?>
         <!--Welcome-->
         <div class="row">
-            <div class="col-12 col-md-2 col-xl-1">
+            <div class="col-12 col-lg-2 col-xl-1">
                 <section id="button-link-web">
                     <div class="container">
                         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -66,7 +66,7 @@
                     </div>
                 </section>
             </div>
-            <div class="col-12 col-md-10 col-xl-11">
+            <div class="col-12 col-lg-10 col-xl-11">
 
                 <section id="welcome" class="padding">
                     <div class="container">
