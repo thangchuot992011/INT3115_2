@@ -1,17 +1,18 @@
 <?php
     $pageStr = '';
-    if(isset($_GET['page'])) {
-        $pageStr = '?page=' . $_GET['page'];
-    } else {
-        if(isset($_GET['trealet'])) {
-            $trealetLink = $_GET['trealet'];
-            $pageStr = str_replace('albums/nhom01/app/streamline/','', $trealetLink);
-            $pageStr = str_replace('/', '@', $pageStr);
-            $pageStr= preg_replace('/@.*/i', '', $pageStr);
-            if($pageStr != '') {
-                $pageStr = '?page=' . $pageStr;
-            }
+    
+    if(isset($_GET['trealet'])) {
+        $trealetLink = $_GET['trealet'];
+        $pageStr = str_replace('albums/nhom01/app/streamline-','', $trealetLink);
+        $pageStr = str_replace('/', '', $pageStr);
+        $pageStr = str_replace('.trealet', '', $pageStr);
+        // $pageStr= preg_replace('/@.*/i', '', $pageStr);
+        if($pageStr != '') {
+            $pageStr = '?page=' . $pageStr;
         }
+    }
+    else {
+        $pageStr = isset($_GET['page']) ? '?page=' . $_GET['page'] : '?page=secondpage';
     }
 ?>
 <header class="ctn-header">
