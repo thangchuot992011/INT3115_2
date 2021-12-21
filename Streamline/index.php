@@ -1,8 +1,27 @@
 <?php
 	$mainDir = '..';
+    $commonFolder = $mainDir . '/common';
+    require_once($mainDir . '/constant/streamline/constant.php');
     require_once($mainDir . '/lib/functions.php');
     require_once($mainDir . '/lib/customFunc.php');
-    $trealetData = initializeApp('streamline');
+    // $trealetData = initializeApp('streamline');
+    $page = isset($_GET['page']) ? $_GET['page'] : 'firstpage';
+    if(!isset($_GET['id'])) die("Invalid item!");
+    $listAllItems = null;
+    if(isset($_GET['trealet'])) {
+        $pageInfo = customInitializeApp($mainDir, 'streamline', $listAllItems);
+    }
+    // hoặc đơn giản nếu không truyền hoặc chỉ truyền tham số page
+    else {
+        $stlFilePath = STREAMLINE_TREALET_FOLDER . '/streamline-' . $page . '.trealet';
+        $pageInfo = loadCustomPageInfo($stlFilePath, $listAllItems);
+    }
+    $trealetArr = array_filter($listAllItems, function ($item) {
+        return $item['itemID'] == $_GET['id'];
+    });
+    // var_dump($trealetArr);
+    if(count($trealetArr) == 0) die("Not found!");
+    $trealetData = array_values($trealetArr)[0];
     $info = $trealetData["info"];
     $imageItems = $trealetData["items"];
     $numOfImageItems = count($trealetData["items"]);
@@ -12,9 +31,7 @@
 <html lang="en">
 <head>
     <?php
-        $commonFolder = $mainDir . '/common';
         require_once($commonFolder . "/metadata.php");
-        require_once($mainDir . '/constant/streamline/constant.php');
     ?>
     <link rel="stylesheet" type="text/css" href="<?php echo STREAMLINE_ASSETS . '/css/css/bootstrap.min.css';?>" />
     <link rel="stylesheet" type="text/css" href="<?php echo STREAMLINE_ASSETS . '/css/css/font-awesome.min.css';?>" />
@@ -39,15 +56,14 @@
         <?php require_once($commonFolder . "/header.php");?>
         <!--Welcome-->
         <div class="row">
-            <div class="col-2 col-xl-1">
+            <div class="col-12 col-lg-2 col-xl-1">
                 <section id="button-link-web">
                     <div class="container">
-                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                            <a class="navbar-brand" href="#">Vertical Navbar</a>
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <!-- <a class="navbar-brand" href="#">Vertical Navbar</a> -->
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
-
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav mr-auto flex-column vertical-nav edit-nav">
                                     <li class="nav-item">
@@ -66,7 +82,8 @@
                     </div>
                 </section>
             </div>
-            <div class="col-10 col-xl-11">
+            <div class="col-12 col-lg-10 col-xl-11">
+
                 <section id="welcome" class="padding">
                     <div class="container">
                         <div class="row">
@@ -88,16 +105,16 @@
                     </div>
                 </section>
                 <!--Food Facilities-->
-                <section id="image" class="padding bg_grey">
+                <section id="image" class="padding">
                     <div class="container">
                         <div class="row">
-                            <div class="col-12">
+                            <div class="col-md-12">
                                 <h2 class="heading">Hình Ảnh</h2>
                                 <hr class="heading_space">
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-12 grid_layout">
+                            <div class="col-md-12 grid_layout">
                                 <div class="row">
                                     <div class="zerogrid">
                                         <div class="wrap-container">
@@ -106,7 +123,7 @@
                                                     <div class="col-3-5 bachground-color-image d-flex align-items-center ">
                                                         <div class="wrap-col first">
                                                             <div class="item-container">
-                                                                <img class="image-fix-size" src="<?php echo $imageItems[0]; ?>" alt="cook"/>
+                                                                <img class="image-fix-size" onclick="imgClick(this)" src="<?php echo $imageItems[0]; ?>" alt="<?php echo $trealetData["title"];?>"/>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -115,7 +132,7 @@
                                                     <div class="col-1-5 bachground-color-image">
                                                         <div class="wrap-col first ">
                                                             <div class="item-container">
-                                                                <img class="image-fix-size" src="<?php echo $imageItems[$i]; ?>" alt="cook"/>
+                                                                <img class="image-fix-size" onclick="imgClick(this)" src="<?php echo $imageItems[$i]; ?>" alt="<?php echo $trealetData["title"];?>"/>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -130,10 +147,10 @@
                 </section>
 
                 <!--Featured Receipes -->
-                <section id="video" class="bg_grey padding">
+                <section id="video" class="padding">
                     <div class="container">
                         <div class="row">
-                            <div class="col-12">
+                            <div class="col-md-12">
                                 <h2 class="heading">Video</h2>
                                 <hr class="heading_space">
                             </div>
@@ -154,6 +171,14 @@
         </div>
         <?php require_once($commonFolder . "/footer.php");?>
     </div>
+    <!-- chỗ này dùng để show full màn hình ảnh hiện vật -->
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+
     <?php require_once($commonFolder . "/scripts.php");?>
+    <script src="<?php echo STREAMLINE_ASSETS . '/js/streamline/index.js';?>"></script>
 </body>
 </html>
