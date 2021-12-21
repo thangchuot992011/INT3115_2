@@ -1,21 +1,29 @@
 <?php
+    $commonFolder = __DIR__ . '/common';
+    require_once("./constant/main/constant.php");
     // bổ sung thêm tham số page để xem là load page nào
-    $page = isset($_GET['page']) ? $_GET['page'] : '';
+    $page = isset($_GET['page']) ? $_GET['page'] : 'firstpage';
     $mainDir = '.';
-    require_once('./lib/customFunc.php');
-    $sourceAllItems = __DIR__ . '/tempscripts' . '/' . $page . '/list-all-items.json';
-    $sourceNotableItems = __DIR__ . '/tempscripts' . '/' . $page . '/list-notable-items.json';
-    $listAllItems = getItemsFromJSON($sourceAllItems);
-    $listNotableItems = getItemsFromJSON($sourceNotableItems);
+    $listAllItems = null;
+    require_once($mainDir . '/lib/customFunc.php');
+    if(isset($_GET['trealet'])) {
+        $pageInfo = customInitializeApp($mainDir, 'streamline', $listAllItems);
+    }
+    // hoặc đơn giản nếu không truyền hoặc chỉ truyền tham số page
+    else {
+        $stlFilePath = MAIN_TREALET_FOLDER . '/streamline-' . $page . '.trealet';
+        $pageInfo = loadCustomPageInfo($stlFilePath, $listAllItems);
+    }
+    $listNotableItems =  array_filter($listAllItems, function ($item) {
+        return $item['isNotable'];
+    });
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <?php 
-        $commonFolder = __DIR__ . '/common';
         require_once($commonFolder . "/metadata.php");
-        require_once("./constant/main/constant.php");
     ?>
     <link rel="stylesheet" href="<?php echo MAIN_ASSETS . '/css/common/common.css';?>" />
     <link rel="stylesheet" href="<?php echo MAIN_ASSETS . '/css/common/header.css';?>" />
@@ -38,11 +46,13 @@
             <!-- The slideshow -->
             <div class="carousel-inner">
                 <?php
-                    $countNotableItems = count($listNotableItems);
+                $notableValues = array_values($listNotableItems);
+                // foreach($listNotableItems as $itemKey => $itemValue) {
+                    $countNotableItems = count($notableValues);
                     for ($i = 0; $i < $countNotableItems; $i++) { ?>
                     <div class="carousel-item<?php if ($i == 0) {echo ' active';} else echo ''; ?>">
                         <div class="parent d-flex justify-content-center">
-                            <img src="<?php echo MAIN_ASSETS . $listNotableItems[$i]['thumbnail']?>" height="400px" width="auto" />
+                            <img src="<?php echo MAIN_ASSETS . $notableValues[$i]['thumbnail']?>" height="400px" width="auto" />
                         </div>
                     </div>
                 <?php } ?>
@@ -64,17 +74,18 @@
             </div>
             <div class="row">
             <?php
-                $countAllItems = count($listAllItems);
-                for ($i = 0; $i < $countAllItems; $i++) { ?>
+                // $countAllItems = count($listAllItems);
+                // for ($i = 0; $i < $countAllItems; $i++) {
+                foreach($listAllItems as $itemKey => $itemValue) { ?>
                 <div class="col-lg-4 col-6">
                     <div class="nhom01-item">
                         <!-- href đến file trealet của hiện vật -->
-                        <a href="<?php echo $listAllItems[$i]['trealet'];?>" class="item-img">
-                            <img src="<?php echo MAIN_ASSETS . $listAllItems[$i]['thumbnail']?>" />
+                        <a href="<?php echo $mainDir . '/Streamline?page=' . $page . '&' . 'id=' . $itemValue['itemID'];?>" class="item-img">
+                            <img src="<?php echo MAIN_ASSETS . $itemValue['thumbnail']?>" />
                         </a>
                         <h3 class="item-title">
                             <!-- href đến file trealet của hiện vật -->
-                            <a href="<?php echo $listAllItems[$i]['trealet'];?>" class="item-title-link"><?php echo $listAllItems[$i]['title'] ?></a>
+                            <a href="<?php echo $mainDir . '/Streamline?page=' . $page . '&' . 'id=' . $itemValue['itemID'];?>" class="item-title-link"><?php echo $itemValue['shortTitle'] ?></a>
                         </h3>
                     </div>
                 </div>

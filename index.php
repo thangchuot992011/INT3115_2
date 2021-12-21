@@ -1,19 +1,31 @@
 <?php
     $mainDir = '.';
+    $listAllItems = null;
     require_once($mainDir . '/lib/customFunc.php');
     $commonFolder = __DIR__ . '/common';
-    require_once($commonFolder . "/metadata.php");
     require_once($mainDir . '/constant/main/constant.php');
+    $page = isset($_GET['page']) ? $_GET['page'] : 'firstpage';
     // bổ sung thêm tham số page để xem là load page nào (đơn vị nào)
-    $page = isset($_GET['page']) ? '/' . $_GET['page'] : '';
-    $customPageSrc = MAIN_TREALET_FOLDER . '/streamline' . $page . '/streamline-page.trealet';
-    $sourceItems = __DIR__ . '/tempscripts' . '/' . $page . '/list-notable-items.json';
-    $listItems = getItemsFromJSON($sourceItems);
-    $pageInfo = loadCustomPageInfo($customPageSrc);
+    // vào thằng bằng đường dẫn đến file trealet của đơn vị (như url cô đưa trong file docx)
+    if(isset($_GET['trealet'])) {
+        $pageInfo = customInitializeApp($mainDir, 'streamline', $listAllItems);
+    }
+    // hoặc đơn giản nếu không truyền hoặc chỉ truyền tham số page
+    else {
+         // tạm mặc định về secondpage nếu không truyền
+        $stlFilePath = MAIN_TREALET_FOLDER . '/streamline-' . $page . '.trealet';
+        $pageInfo = loadCustomPageInfo($stlFilePath, $listAllItems);
+    }
+    $listNotableItems =  array_filter($listAllItems, function ($item) {
+        return $item['isNotable'];
+    });
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <?php
+        require_once($commonFolder . "/metadata.php");
+    ?>
     <link rel="stylesheet" type="text/css" href="<?php echo MAIN_ASSETS . '/css/css/font-awesome.min.css';?>" />
     <link rel="stylesheet" href="<?php echo MAIN_ASSETS . '/css/common/common.css';?>" />
     <link rel="stylesheet" href="<?php echo MAIN_ASSETS . '/css/common/header.css';?>" />
@@ -32,7 +44,7 @@
                     <div class="banner-content col-lg-8">
                         <h1 class="banner-title"><?php echo $pageInfo['title'];?></h1>
                         <p class="banner-description pt-3 pb-3"><?php echo $pageInfo['desc'];?></p>
-                        <a href="./items.php" class="btn-start text-uppercase">Bắt đầu</a>
+                        <a href="<?php echo './items.php?page=' . $page ?>" class="btn-start text-uppercase">Bắt đầu</a>
                     </div>
                 </div>
             </div>
@@ -46,17 +58,18 @@
             </div>
             <div class="row">
                 <?php
-                    $countItems = count($listItems);
-                    for ($i = 0; $i < $countItems; $i++) { ?>
+                    foreach($listNotableItems as $itemKey => $itemValue) { ?>
+                    <!-- $countItems = count($listNotableItems);
+                    for ($i = 0; $i < $countItems; $i++) { ?> -->
                 <div class="col-lg-4 col-6">
                     <div class="nhom01-item">
                         <!-- href đến file trealet của hiện vật -->
-                        <a href="<?php echo $listItems[$i]['trealet'];?>" class="item-img">
-                            <img src="<?php echo MAIN_ASSETS . $listItems[$i]['thumbnail']?>" />
+                        <a href="<?php echo $mainDir . '/Streamline?page=' . $page . '&' . 'id=' . $itemValue['itemID'];?>" class="item-img">
+                            <img src="<?php echo MAIN_ASSETS . $itemValue['thumbnail']?>" />
                         </a>
                         <h3 class="item-title">
                             <!-- href đến file trealet của hiện vật -->
-                            <a href="<?php echo $listItems[$i]['trealet'];?>" class="item-title-link"><?php echo $listItems[$i]['title'] ?></a>
+                            <a href="<?php echo $mainDir . '/Streamline?page=' . $page . '&' . 'id=' . $itemValue['itemID'];?>" class="item-title-link"><?php echo $itemValue['shortTitle'] ?></a>
                         </h3>
                     </div>
                 </div>
