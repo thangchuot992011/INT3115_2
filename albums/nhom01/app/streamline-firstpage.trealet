@@ -1,0 +1,337 @@
+{
+	"trealet":{
+		"exec":"streamline",
+		"title":"Khám phá các di sản văn hóa",
+		"desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.  sed do eiusmod tempor incididunt..",
+		"opening-hours":"Mon - Fri: 10.00am to 05.00pm Sat: 12.00pm to 03.00 pm Sunday Closed",
+		"exhibition":"Mon - Fri: 10.00am to 05.00pm Sat: 12.00pm to 03.00 pm Sunday Closed",
+		"upcoming-events":"Mon - Fri: 10.00am to 05.00pm Sat: 12.00pm to 03.00 pm Sunday Closed",
+		"registration-desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"buyonline-desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"banner-src":"/images/header-bg.jpg"
+	},
+	"listItems":[
+		{
+			"itemID":1101,
+			"title":"ẤN MÔN HẠ SẢNH ẤN",
+			"shortTitle":"Ấn Môn Hạ Sảnh Ấn",
+			"titleImage":"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/avatar&i=7.jpg",
+			"info":{
+				"Chất liệu":"Đồng",
+				"Kích thước":"Chiều cao: 8,5cm; Kích thước mặt: 7,3cm x 7,3cm",
+				"Niên đại":"Niên hiệu Long Khánh 5, Trần Duệ Tông (năm 1377)",
+				"Nơi phát hiện":"Hương Khê, Hà Tĩnh, năm 1962",
+				"Công nhận":"Là Bảo vật quốc gia theo Quyết định số 1426/QĐ-TTg ngày 01/10/2012 của Thủ tướng Chính phủ."
+			},
+			"decs":"Ấn được tạo ba cấp, núm hình chữ nhật, chỏm cong giống hình bia đá. Mặt ấn vuông, đúc nổi 4 chữ Hán (kiểu chữ Triện): Môn Hạ Sảnh ấn (門下廳印). Hai cạnh của lưng ấn khắc hai dòng chữ Hán (kiểu chữ Chân): Môn Hạ Sảnh ấn (ấn của Sảnh Môn Hạ) và Long Khánh ngũ niên ngũ nguyệt nhị thập tam nhật tạo (chế tạo vào ngày 23 tháng 5, niên hiệu Long Khánh thứ 5, đời vua Trần Duệ Tông, năm 1377).  Môn Hạ sảnh ấn là một trong những ấn biểu hiện quyền lực của Nhà nước phong kiến, dùng để đóng những văn bản hành chính quan trọng của triều đình nhà Trần, từ thời vua Trần Duệ Tông về sau. Sảnh Môn Hạ là một trong 3 sảnh, cơ quan cao nhất của hệ thống chính quyền trung ương nhà Trần, và là cơ quan thân cận của nhà vua, có nhiệm vụ giữ bảo ấn, truyền lệnh của vua tới các quan và các công việc lễ nghi trong cung.  Cho tới nay, những phát hiện về ấn đồng của các triều đại phong kiến Việt Nam trên đất nước ta rất ít. Môn Hạ sảnh ấn là chiếc ấn đồng hiện biết có niên đại sớm nhất và nội dung rõ ràng nhất liên quan đến lịch sử hành chính trung ương triều Trần. Vì thế, đây cũng là hiện vật đặc biệt quý hiếm trong di sản văn hóa dân tộc.",
+			"thumbnail":"/images/an-mon-ha-sanh-an.jpg",
+			"items":[
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/7&i=1-d5xm5htw.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/7&i=2-ijbzjwd1.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/7&i=3-kbpsckwp.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/7&i=4-qomvp93h.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/7&i=5-o1fifbaz.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/7&i=6-mlhxtron.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/7&i=7-6nlxmmza.jpg"
+			],
+        	"videos":[
+				"https://www.youtube.com/embed/SDWNlyOuhHU"
+			],
+			"isNotable": true
+		},
+		{
+			"itemID":1102,
+			"title":"ẤN SẮC MỆNH CHI BẢO",
+			"shortTitle":"Ấn Sắc Mệnh Chi Bảo",
+			"titleImage":"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/avatar&i=15.png",
+			"info":{
+				"Chất liệu":"Vàng",
+				"Kích thước":"Chiều cao: 11cm; Dày: 2,5cm; Rộng mặt: 14cm x 14cm; Nặng: 8300 gram",
+				"Niên đại":"Đúc năm Minh Mệnh thứ 8, thời Nguyễn (1827)",
+				"Công nhận":"Là Bảo vật quốc gia theo Quyết định số 2382/QĐ-TTg ngày 25/12/2015 của Thủ tướng Chính phủ."
+			},
+			"decs":"Theo Đại Nam thực lục chính biên, năm Minh Mệnh thứ 8 (1827), Bộ Lễ cùng Phủ Nội vụ, Ty Vũ khố nhận chỉ dụ đúc 5 ấn vàng, trong đó có ấn Sắc mệnh chi bảo.  Ấn làm bằng chất liệu vàng 10 tuổi, gồm hai phần: quai ấn và ấn. Quai được tạo hình rồng, đầu vươn về phía trước, 2 sừng dài, đuôi xòe 9 dải hình ngọn lửa, chân rồng 5 móng. Mặt ấn đúc nổi 4 chữ Hán (kiểu chữ Triện): Sắc mệnh chi bảo - 敕命之寶 (Bảo ấn của các sắc lệnh). Trên lưng khắc 2 dòng lạc khoản, bên trái: Thập tuế kim trọng nhị bách nhị thập tam lượng lục tiền - 拾 歲金 重 弍 百 弍 拾叄 両 陆 錢 (Vàng 10 tuổi, nặng 223 lạng 6 tiền); bên phải: Minh Mệnh bát niên thập nguyệt cát nhật tạo - 明 命 捌 年 拾 月 吉 日 造 (Đúc vào ngày lành, tháng 10, năm Minh Mệnh thứ 8). Qua những tư liệu còn lại cho thấy ấn Sắc mệnh chi bảo dùng để ban cấp cáo sắc cho văn võ cũng như phong tặng cho thần và người, được đóng trên các loại văn bản: sắc phong, chiếu văn… Trong Khâm định Đại Nam hội điển sự lệ có nói đến lời của vua Minh Mệnh (năm 1828) về việc dùng ấn Sắc mệnh chi bảo để phong tặng, ban cấp cho bá quan văn, võ thay cho ấn Phong tặng chi bảo - 封 贈 之 寶 và quy định dùng ấn Sắc mệnh chi bảo cho cả những chiếu văn, thăng chức tước cho những người có quyền chức, tước, hàm nhưng chưa được cấp sắc. Hiện nay, trong hệ thống bảo tàng, di tích, sưu tập tư nhân trên toàn quốc còn lưu giữ được khá nhiều sắc phong thần và sắc phong quan chức thời Nguyễn có đóng triện Sắc mệnh chi bảo.  Ấn Sắc mệnh chi bảo là đỉnh cao của loại hình ấn chương thời Nguyễn, là nguồn sử liệu quan trọng ghi lại dấu ấn lịch sử gắn liền với nhà Nguyễn - triều đại phong kiến cuối cùng ở Việt Nam.",
+			"thumbnail":"/images/an_vinh_tran_chi_bao.jpg",
+			"items":[
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/14&i=10-qrwqtxaj.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/15&i=2-gx3mrbyc.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/15&i=3-74nncxtq.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/15&i=4-lyaitq2k.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/15&i=5-bartphuu.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/15&i=6-jopuxa1a.jpeg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/15&i=7-j1qcqyp4.jpeg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/15&i=8-h5kkrzuj.jpeg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/15&i=9-sci4qegm.jpeg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/15&i=10-o02ptrti.jpeg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/15&i=11-lqjyy399.jpeg"
+			],
+			"videos":[],
+			"isNotable": false
+		},
+		{
+			"itemID":1103,
+			"title":"BIA ĐIỆN NAM GIAO",
+			"shortTitle":"Bia Điện Nam Giao",
+			"titleImage":"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/avatar&i=11.jpg",
+			"info":{
+				"Chất liệu":"Đá",
+				"Kích thước":"Chiều cao: 287cm; Chiều rộng:157cm",
+				"Niên đại":"Năm thứ 4 niên hiệu Vĩnh Trị, đời vua Lê Hy Tông (năm 1679), triều Lê Trung Hưng","Nơi phát hiện":"Thành Thăng Long (phố Mai Hắc Đế, Hai Bà Trưng, Hà Nội ngày nay).",
+				"Công nhận":"Là Bảo vật quốc gia theo Quyết định số 2382/QĐ-TTg ngày 23/12/2015 của Thủ tướng Chính phủ."
+			},
+			"decs":"Vào thời Lý, đàn tế trời (còn được gọi là đàn Hoàn Khâu hay Viên Khâu) được lập tại kinh đô Thăng Long. Sang đời vua Lê Thần Tông (1619 - 1643) đã cho khôi phục các nghi lễ tế tại đàn này và gọi là Nam Giao. Khi triều Nguyễn chuyển kinh đô vào Huế, đàn Nam Giao ở Thăng Long không được tổ chức tế lễ nữa. Năm 1804, đàn Nam Giao bị dỡ bỏ để lấy gạch ngói xây thành. Tại đây, chỉ còn sót lại nhà bia và tấm bia này. Tấm bia đã được Trường Viễn Đông Bác cổ Pháp chuyển về, đặt tại sân vườn Bảo tàng Louis Finot vào năm 1947 (nay là Bảo tàng Lịch sử quốc gia).  Bia có kích thước lớn, gồm hai phần: bia và đế bia. Phần bia có trán bia hình bán nguyệt, chạm nổi đôi rồng chầu mặt trời. Thân bia hình chữ nhật, phía trên được chạm nổi 5 chữ Hán Nam Giao điện bi kí (南郊殿碑記) hai diềm bên chạm nổi hình rồng, phượng và diềm chân chạm nổi hình kỳ lân. Đế bia hình khối chữ nhật, 4 mặt chạm nổi hình kỳ lân, sư tử và hoa lá.  Minh văn chữ Hán được khắc trên một mặt, với nét chữ chân phương, rõ ràng, điển hình của thư pháp thời Lê Trung Hưng. Nội dung văn bia nêu rõ chức năng, vị trí của đàn Nam Giao và lễ Tế Giao là vào năm Nguyên Đán, vua cùng quần thần nghênh tế ở đây, cầu mưa thuận gió hòa, quốc thái dân an, thiên hạ thái bình, giữ vững nền thịnh trị của các triều đại. Văn bia đặc biệt nhấn mạnh đến đợt trùng tu, mở mang năm 1663 - 1664 để “Điện này không chỉ bày tỏ lòng tôn kính đương thời, còn muốn truyền mãi cho đời sau. Bèn khắc đá ghi công để hậu nhân biết được tấm lòng của Vương thượng, kính giữ bên trong, cung nhượng biểu hiện ở ngoài. Công lao ấy dày, đức ấy thịnh tốt. Có công đức ấy nên mới có phúc, thọ ấy. Phúc trời, lộc trời dồi dào. Thọ trời ban, tuổi trời khỏe lâu. Nghìn lộc, trăm phúc, con cháu nghìn ức. Vạn đời nghiệp đế, nghiệp vương, mệnh trời vĩnh cửu”. Văn bia do Đông các Đại học sĩ Hồ Sĩ Dương hiệu chỉnh, Thượng thư Vũ Công Chấn làm đốc công tạc bia, Đông các Hiệu thư Nguyễn Tiến Triều soạn, Binh bộ Lang trung Lê Công Chính viết chữ.  Bia điện Nam Giao là hiện vật quý hiếm thời Lê Trung Hưng còn lưu giữ được cho đến nay. Với đề tài trang trí đẹp, kỹ thuật chạm khắc tinh xảo, thư pháp chữ Hán đặc sắc, nội dung văn bia liên quan tới nghi lễ đặc biệt quan trọng của đất nước, tấm bia xứng đáng là báu vật của chính triều đại ấy, để đến hôm nay một lần nữa được tôn vinh.",
+			"thumbnail":"/images/bia-dien-nam-giao.jpg",
+			"items":[
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/11&i=2-tlettybc.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/11&i=3-17scbagz.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/11&i=4-0frrgrif.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/11&i=5-6tobw2ob.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/11&i=6-iln14hsj.jpg",
+				"https://hcloud.trealet.com/cache/Nhom01/Images/11/7-vspqgg5m_w800_h800.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/11&i=8-qh7e3wuv.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/11&i=9-zzef3kdk.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/11&i=10-u2fnicml.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/11&i=11-4utzhkkg.jpg"
+			],
+			"videos":[
+				"https://www.youtube.com/embed/GC0km6cqQD0",
+				"https://www.youtube.com/embed/Kkmc6d6pPHs",
+				"https://www.youtube.com/embed/CPGLcA35DVM",
+				"https://www.youtube.com/embed/WYXtVuSDI_o"
+			],
+			"isNotable": true
+		},
+		{
+			"itemID":1104,
+			"title":"CHUÔNG VÂN BẢN",
+			"shortTitle":"Chuông Vân Bản",
+			"titleImage":"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/avatar&i=8.jpg",
+			"info":{
+				"Chất liệu":"Đồng",
+				"Kích thước":"Chiều cao: 127cm; Đường kính miệng: 80cm",
+				"Niên đại":"Thời Trần, thế kỉ 13 - 14",
+				"Nơi phát hiện":"Đồ Sơn, Hải Phòng, năm 1958",
+				"Công nhận":"Là Bảo vật quốc gia theo Quyết định số 2599/QĐ-TTg ngày 30/12/2013 của Thủ tướng Chính phủ."
+			},
+			"decs":"Chuông có kích thước lớn, gồm phần quai và thân. Quai chuông trang trí hình bồ lao (đôi rồng đấu lưng vào nhau), giữa quai, nơi vị trí cao nhất, đúc nổi búp sen. Chuông có 6 núm gõ tròn hình đóa sen nở. Miệng chuông loe, vành miệng trang trí 52 cánh sen kép to, nhỏ xen kẽ nhau.  Thân chuông khắc minh văn chữ Hán, nói về việc nhà sư tu hành khổ hạnh Hướng Tâm và Cư sĩ Đại Ố, đã có công khai phá sơn lâm, mở mang đất đai, dựng chùa Vân Bản và những người cung tiến đất đai cho chùa như Thị vệ nhân dũng thủ Nguyễn Văn Kịp và vợ Chu Thị Trãi cùng anh vợ là Chu Lâm. Chuông được vị quan Tả bộc xạ cung tiến vào chùa. Minh văn còn có lời nhắn gửi đời sau hãy phát tâm công đức giữ gìn, không để chùa bị hủy hoại, không được khuyết thiếu việc hương, đăng. Hoa lợi từ ruộng đất cúng dường dành cho cúng lễ, giỗ chạp.   Đặc biệt, qua minh văn còn cho biết một số chức quan thời Trần, đó là: Tả bộc xạ, Thị vệ nhân dũng thủ. Minh văn cũng khắc ghi chữ Nam là 1 trong 10 chữ húy được quy định bởi vua Trần Anh Tông. Chuông Vân Bản không chỉ có giá trị độc bản về minh văn, mà còn phản ánh trình độ đúc đồng thể khối lớn của ông cha ta, với những họa tiết hoa văn tinh xảo, mang đậm dấu ấn của nghệ thuật Phật giáo - một tôn giáo đã trở thành Quốc giáo thời Lý - Trần.",
+			"thumbnail":"/images/chuong_van_ban.jpg",
+			"items":[
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/8&i=1-ilgpes4f.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/8&i=2-rjh7ae7f.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/8&i=3-pvdoiy2e.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/8&i=4-rtx7y8oq.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/8&i=5-dswy9lz1.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/8&i=6-pm4f3xno.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/8&i=7-rxcjk7jy.jpg"
+			],
+			"videos":[
+				"https://www.youtube.com/embed/l3KIMtmLUZY",
+				"https://www.youtube.com/embed/xCiIlC8Bwog"
+			],
+			"isNotable": true
+		},
+		{
+			"itemID":1105,
+			"title":"KIM SÁCH ĐẾ HỆ THI",
+			"shortTitle":"Kim Sách Đế Hệ Thi",
+			"titleImage":"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/avatar&i=14.jpg",
+			"info":{
+				"Chất liệu":"Vàng",
+				"Kích thước":"Chiều dài: 23.2cm, Chiều rộng: 13.7cm, Bề dày: 1.6cm; Nặng: 4,232gr",
+				"Niên đại":"Năm 1823, đời vua Minh Mạng, triều Nguyễn",
+				"Công nhận":"Là Bảo vật quốc gia theo quyết định số: 1821/QĐ-TTg ngày 24/12/2018 của Thủ tướng Chính phủ."
+			},
+			"decs":"Kim sách Đế hệ thi làm theo khổ chữ nhật đứng. Sách có 13 tờ, tờ bìa trước, bìa sau chạm hình rồng mây và 11 tờ ruột khắc sách văn. Dưới triều Nguyễn, vua Gia Long đã quy định cách viết tộc phả nhà Nguyễn: con cháu Nguyễn Hoàng vào Nam thì chép theo họ tôn thất Nguyễn Phúc; con cháu của Nguyễn Hoàng ở Bắc và các chi trước Nguyễn Hoàng ở Thanh Hóa thì thuộc về họ Nguyễn Hựu. Theo truyền thống đó, năm Quý Mùi (1823), để giữ nghiệp lâu dài cho mình và con cháu, vua Minh Mệnh đã tìm ra phép đặt tên đôi, theo đó, người kế nghiệp khi nối ngôi, có thể lấy một chữ làm tên, lấy chữ Nhật làm nghĩa tượng trưng ngôi vua. Dòng đế (Đế hệ) được kế thừa đế nghiệp và dòng thân (Phiên hệ) là để bảo vệ Đế hệ. Vua đã thảo 11 bài thơ, gồm bài Đế hệ thi và 10 bài Phiên hệ thi. Đế hệ thi có 20 chữ với ý nghĩa tốt lành và uyên bác, dùng làm từ đứng trước cho 20 đời nối tiếp sau kể từ đời vua Minh Mệnh gồm:  Miên, Hồng (Hường), Ưng, Bửu, Vĩnh  Bảo, Quý, Định, Long, Trường  Hiền, Năng, Kham, Kế, Thuật  Thế, Thụy (Thoại), Quốc, Gia, Xương   Theo phép này, tất cả con trai của vua Minh Mệnh đều phải có từ đứng trước là Miên, sau là tên do Hoàng gia đặt; con trai của thế hệ Miên đều phải có tên bắt đầu bằng Hồng (Hường), sau là tên do Hoàng gia đặt; con trai của thế hệ Hường lại lấy từ đứng trước là Ưng, sau là tên do Hoàng gia đặt... cứ thế đến hết 20 chữ của bài thơ Đế hệ.  Với Đế hệ thi, vua Minh Mệnh mong muốn thế hệ sau truyền nối ngôi vua tới 20 đời, được 500 năm. Tuy nhiên, cuối cùng, dừng lại ở chữ Vĩnh, tức thế hệ thứ 5, đời vua thứ 13 triều Nguyễn.",
+			"thumbnail":"/images/sach_de_he_thi.jpg",
+			"items":[
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/14&i=2-ljq3vxxu.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/14&i=3-8tliq3jd.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/14&i=4-dv5xxron.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/14&i=5-e6djcowm.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/14&i=6-amstsxcl.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/14&i=8-y6ujiuwv.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/14&i=9-0osqilzv.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/14&i=10-qrwqtxaj.jpg"
+			],
+			"videos":[
+				"https://www.youtube.com/embed/dcADDdRrUb0",
+				"https://www.youtube.com/embed/966oi6qzaIE",
+				"https://www.youtube.com/embed/Cg90A2pS5pI"
+			],
+			"isNotable": true
+		},
+		{
+			"itemID":1106,
+			"title":"THẠP ĐÀO THỊNH",
+			"shortTitle":"Thạp Đào Thịnh",
+			"titleImage":"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/avatar&i=2.jpg",
+			"info":{
+				"Chất liệu":"Đồng",
+				"Kích thước":" Đường kính miệng: 61cm; Đường kính đáy: 60cm; Chiều cao: 90cm",
+				"Niên đại":"Văn hoá Đông Sơn, khoảng 2500 - 2000 năm cách ngày nay",
+				"Nơi phát hiện":"Thôn Đào Thịnh, huyện Trấn Yên, tỉnh Yên Bái, năm 1961",
+				"Công nhận":"Là Bảo vật quốc gia theo Quyết định số 1426/QĐ-TTg ngày 01/10/2012 của Thủ tướng Chính phủ."
+			},
+			"decs":"Thạp có kích thước lớn, trang trí hoa văn phong phú và độc đáo nhất trong số những thạp đồng được phát hiện ở Việt Nam cho đến nay. Chức năng chính của thạp là đồ đựng lương thực/hạt giống. Tuy nhiên, khi được phát hiện, trong thạp còn chứa nhiều than tro và răng người chết, điều đó chứng tỏ chiếc thạp còn được dùng làm quan tài mai táng chủ nhân.   Thạp có dáng hình trụ, thuôn dần xuống đáy. Nắp thạp hình nón cụt, ở giữa trang trí hình mặt trời 12 tia, xung quanh là 11 băng hoa văn. Đặc biệt, trên nắp thạp đúc nổi 4 khối tượng là những cặp đôi nam nữ đang giao hợp. Trai thì xõa tóc, ngang hông đeo dao găm, đóng khố. Gái thì mặc váy ngắn. Bộ phận sinh dục của nam giới được thể hiện rất rõ, chứng tỏ người xưa cố ý đặt khối tượng này trên nắp thạp, phản ánh khát vọng sinh sôi nảy nở, sự phồn thịnh của con người và vạn vật. Thân thạp trang trí 25 băng hoa văn gồm răng cưa, vòng tròn tiếp tuyến, chim Lạc… Phần giữa thân thạp là băng hoa văn chủ đạo với 6 hình thuyền mũi cong có bánh lái, trên thuyền là các chiến binh cầm cung, lao, giáo, rìu chiến... cho thấy sự phát triển quân sự cũng như kỹ thuật đóng thuyền của người Việt.  Thạp Đào Thịnh là một trong những tác phẩm nghệ thuật cổ vô cùng quý hiếm. Đặc biệt, chức năng và trang trí trên thạp mang thông điệp của quá khứ, kể lại cho thế hệ mai sau về truyền thống dựng nước, giữ nước và tín ngưỡng phồn thực của cư dân Văn Lang xưa.",
+			"thumbnail":"/images/thap_dao_thinh.jpg",
+			"items":[
+				"https://hcloud.trealet.com/cache/Nhom01/Images/2/1-pk0ai3ky_w622_h800.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/2&i=2-kz4t1pav.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/2&i=3-ilw9j9mz.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/2&i=5-zox7izca.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/2&i=7-icqzut3v.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/2&i=8-fap3ctkf.jpg"
+			],
+			"videos":[
+				"https://www.youtube.com/embed/gM68XmJ9_e4",
+				"https://www.youtube.com/embed/DezB3hkByeU",
+				"https://www.youtube.com/embed/Xjya4Sdo8Sg",
+				"https://www.youtube.com/embed/fGznydRVyGs"
+			],
+			"isNotable": true
+		},
+		{
+			"itemID":1107,
+			"title":"BIA VÕ CẠNH",
+			"shortTitle":"Bia Võ Cạnh",
+			"titleImage":"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/avatar&i=6.jpg",
+			"info":{
+				"Chất liệu":"Đá cát",
+				"Kích thước":"Chiều cao: 270cm; Dày: 110cm x 80cm",
+				"Niên đại":"Thế kỷ 3 - 4",
+				"Nơi phát hiện":"Làng Võ Cạnh, xã Vĩnh Trung, huyện Diên Khánh, tỉnh Khánh Hòa, năm 1910",
+				"Công nhận":"Là Bảo vật quốc gia theo Quyết định số 2599/QĐ-TTg ngày 30/12/2013 của Thủ tướng Chính phủ."
+			},
+			"decs":"Bia Võ Cạnh được phát hiện gần một phế tích tháp gạch tại làng Võ Cạnh (xã Vĩnh Trung, huyện Diên Khánh, Thành phố Nha Trang, tỉnh Khánh Hòa) và được Trường Viễn đông Bác cổ Pháp chuyển về Bảo tàng Louis Finot (nay là Bảo tàng Lịch sử quốc gia) năm 1910. Đây là một trong những tấm bia cổ nhất ở khu vực Đông Nam Á được biết cho đến nay.  Sự độc đáo của bia Võ Cạnh nằm ở khối hình, là một khối đá tự nhiên hình trụ được tạo bốn mặt, nhưng chỉ có ba mặt được khắc chữ Brahmi. Mỗi dòng đều được khắc liền từ mặt này tới mặt kia, trong đó có hai câu theo thể thơ Vasantatilaka, còn lại là văn xuôi. Kiểu chữ trên bia giống với chữ của các bia ký Amaravati (Ấn Độ) thế kỷ 3 - 4. Đây là bằng chứng xưa nhất về sự du nhập chữ Phạn vào Vương quốc Champa.  Giá trị của bia Võ Cạnh còn nằm ở nội dung bài minh, với những thông tin về việc dâng cúng của vị vua thuộc dòng tộc Sri Mara - người có công sáng lập triều đại đầu tiên của Vương quốc Champa. Minh văn nói về cái chết và sự phục sinh “lokasyàsya gatàgati” (đến rồi đi ở thế giới này), đó là lòng khoan dung, từ bi trắc ẩn đối với chúng sinh “prajànàn karuna”, cho thấy sự ảnh hưởng mạnh mẽ của tư tưởng Phật giáo Ấn Độ tới cư dân Champa, đặc biệt đối với tầng lớp tăng lữ, ngay từ những thế kỷ đầu Công nguyên.",
+			"thumbnail":"/images/bia-vo-canh.jpg",
+			"items":[
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/6&i=1-0gqdvjlu.jpg","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/6&i=3-vmxein1o.jpg","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/6&i=4-23vltdzk.jpg","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/6&i=5-i0ynno9u.jpg","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/6&i=6-rahzyxfl.jpg","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/6&i=7-xrwwswdt.jpg"
+			],
+			"videos":[],
+			"isNotable": false
+		},
+		{
+			"itemID":1108,
+			"title":"THỐNG HOA NÂU",
+			"shortTitle":"Thống hoa nâu",
+			"titleImage":"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/avatar&i=9.jpg",
+			"info":{
+				"Chất liệu":"Gốm",
+				"Kích thước":"Đường kính miệng: 26,7cm; Chiều cao: 52cm",
+				"Niên đại":"Thời Trần, thế kỷ 13 - 14",
+				"Nơi phát hiện":"Đền Trần, thôn Tức Mạc, Lộc Vượng, Nam Định, năm 1972",
+				"Công nhận":"Là Bảo vật quốc gia theo Quyết định số 2496/QĐ-TTg ngày 22/12/2016 của Thủ tướng Chính phủ."
+			},
+			"decs":"Thống có dáng tròn, miệng rộng, vai ngang, thân thuôn, chân đế choãi, đáy lõm. Vai đúc nổi băng cánh sen hai lớp, viền nâu. Trong lòng cánh sen khắc chìm văn sóng nước, chân cánh sen là băng vòng tròn nhỏ như chấm cuống rạ. Thân thống chia thành 8 múi nổi hình cánh sen, trong mỗi múi trang trí hình bình hoa sen vẽ men nâu trên nền men trắng ngà. Xung quanh các múi được viền bằng dải băng hình cúc xơ đầu.  Thống thuộc loại gốm chất lượng cao, kích thước lớn, xương gốm khá dày, men phủ đều, không bị nứt, sụp khi nung, thể hiện kinh nghiệm, kỹ thuật chế tác, khả năng làm chủ nguyên liệu và nhiệt độ nung của nghệ nhân gốm đương thời.   Với kích thước lớn, cách tạo dáng và hoa văn trang trí mang đậm yếu tố Phật giáo, đã đưa vị trí chiếc thống trở thành tác phẩm nghệ thuật độc đáo, một kiệt tác trong phức hợp gốm Việt Nam nói chung, gốm hoa nâu nói riêng. Xuất xứ của chiếc thống tại phủ Thiên Trường - hành cung của vương triều Trần - nơi sản xuất gốm “quan dụng” đã khẳng định đó là đồ dùng của Hoàng gia.",
+			"thumbnail":"/images/thong-hoa-nau.jpg",
+			"items":[
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/9&i=1-xixivlk2.jpg","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/9&i=2-yl0uyc33.jpg&","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/9&i=3-dlb3jl1j.jpg","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/9&i=4-cozjrh7f.jpg","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/9&i=5-uth22s6t.jpg"
+			],
+			"videos":[
+				"https://www.youtube.com/embed/H-n3Phkoo9w",
+				"https://www.youtube.com/embed/s3IQ8C5d_Tk"
+			],
+			"isNotable": false
+		},
+		{
+			"itemID":1109,
+			"title":"MỘ THUYỀN VIỆT KHÊ",
+			"shortTitle":"Mộ thuyền Việt Khê",
+			"titleImage":"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/avatar&i=3.jpg",
+			"info":{
+				"Chất liệu":"Gỗ",
+				"Kích thước":"Chiều dài: 476cm Chiều rộng: 77cm Chiều sâu: 39 cm",
+				"Niên đại":" Văn hoá Đông Sơn, khoảng 2500 - 2000 năm cách ngày nay",
+				"Nơi phát hiện":"Thôn Ngọc Khê, xã Phù Ninh, Thủy Nguyên, Hải Phòng, năm 1961",
+				"Công nhận":"Là Bảo vật quốc gia theo Quyết định số 2599/QĐ-TTg ngày 30/12/2013 của Thủ tướng Chính phủ."
+			},
+			"decs":"Mộ thuyền là hình thức mai táng khá phổ biến của cư dân Đông Sơn vùng châu thổ và duyên hải Bắc Bộ.  Quan tài Việt Khê được tạo từ một thân cây gỗ lim khoét rỗng. Ngoài một số đồ tùy táng bị mủn nát (đồ dệt, đồ đan) còn có hơn 100 đồ tùy táng khác, hầu hết là chất liệu đồng, bao gồm: đồ dùng sinh hoạt (âu, bình, thố, chậu...), công cụ lao động (rìu, giũa, đục...), vũ khí chiến đấu (lao, giáo, kiếm, dao găm), nhạc cụ (trống, chuông, lục lạc...). Trong đó, có một số loại hình hiện vật khá độc đáo, đó là chiếc muôi đồng, trên cán có tượng người thổi khèn, mảnh da có dấu sơn (giả thiết là chiếc hộ tâm phiến da thuộc, được sơn màu), đồ gỗ... đã giúp chúng ta hiểu thêm về đời sống kinh tế - xã hội của cư dân Đông Sơn, đặc biệt là một số ngành nghề thủ công truyền thống như nghề đúc đồng, thuộc da, nghề sơn, nghề mộc. Những chiếc giáo đồng được cắt mũi, bẻ cong, thể hiện tín ngưỡng \"chia của\" cho người chết, nên người sống muốn làm \"đau\" những của cải ấy để cắt lìa chúng với thế giới dương gian - giống như tục đập vỡ đồ trong lễ bỏ mả của một số tộc người vùng Tây Nguyên hiện nay.  Với kích thước quan tài lớn, số lượng hiện vật phong phú đã cho thấy sự giàu có của chủ nhân mộ Việt Khê, phản ánh phong tục mai táng, quan niệm về cõi sống và cõi chết trong tín ngưỡng tâm linh của người Việt cổ.",
+			"thumbnail":"/images/mo-thuyen-viet-khe.jpg",
+			"items":[
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/3&i=1-xruw3hpv.jpg","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/3&i=2-g7emefex.jpg","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/3&i=3-qpvj7kvf.jpg","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/3&i=4-720czqnn.jpg","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/3&i=5-lncznuzw.jpg","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/3&i=6-kqbbtuqz.jpg","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/3&i=7-lu5e9r1s.jpg","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/3&i=8-tinoje0s.jpg","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/3&i=9-k4bcdrhf.jpg","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/3&i=10-30lm6y2f.jpg","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/3&i=11-cyvsryvn.jpg","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/3&i=12-gmyc5xh8.jpg","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/3&i=13-grhn35fz.jpg","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/3&i=15-vxocn5be.jpg","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/3&i=16-1mljzjwu.jpg","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/3&i=17-jvgxrzt3.jpg","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/3&i=18-ofcitctf.jpg","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/3&i=19-eba8j1uc.jpg","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/3&i=30-x2x1fwku.jpg","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/3&i=31-udcyybwc.jpg","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/3&i=31-udcyybwc.jpg","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/3&i=32-ezqjrqgf.jpg","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/3&i=33-icaplsij.jpg"
+			],
+			"videos":[
+				"https://www.youtube.com/embed/pRUrJ5natwg",
+				"https://www.youtube.com/embed/pRUrJ5natwg",
+				"https://www.youtube.com/embed/j1BPWlQfT_0"
+			],
+			"isNotable": false
+		},
+		{
+			"itemID":1110,
+			"title":"TRỐNG NGỌC LŨ",
+			"shortTitle":"Trống Ngọc Lũ",
+			"titleImage":"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/avatar&i=1.jpg",
+			"info":{
+				"Chất liệu":"Đồng",
+				"Kích thước":"Đường kính mặt: 79,3cm; Đường kính chân: 80cm; Chiều cao: 63cm; Trọng lượng: 86 kg",
+				"Niên đại":"Văn hoá Đông Sơn, khoảng 2.500 - 2.000 năm cách ngày nay",
+				"Nơi phát hiện":"Làng Ngọc Lũ, huyện Bình Lục, tỉnh Hà Nam, năm 1893",
+				"Công nhận":"Là Bảo vật Quốc gia theo Quyết định số 1426/QĐ-TTg ngày 01/10/2012 của Thủ tướng Chính phủ."
+			},
+			"decs":"Trống được phát hiện khi đắp đê Trần Thủy tại xã Như Trác, huyện Nam Xang (nay là huyện Lý Nhân, tỉnh Hà Nam) năm 1893, sau đó được đưa về thờ tại đình làng Ngọc Lũ (huyện Bình Lục, tỉnh Hà Nam). Tháng 4 năm 1903, Viện Viễn Đông Bác cổ sưu tầm về Bảo tàng Louis Finot (nay là Bảo tàng Lịch sử quốc gia).  Trống Ngọc Lũ là trống đẹp nhất trong những trống đồng Đông Sơn được phát hiện cho đến nay ở Việt Nam. Trống có patin màu xanh xám gồm bốn phần: mặt, tang, thân và chân trống. Hoa văn trang trí tập trung ở mặt, tang và thân. Giữa mặt trống là hình mặt trời 14 tia, xung quanh đúc chìm 16 băng hoa văn: hình học, vòng tròn tiếp tuyến có chấm giữa, đặc biệt là các băng trang trí diễn tả cảnh sinh hoạt, lễ hội (đánh trống đồng, cầu mùa, giã gạo), hươu, chim... vận động ngược chiều kim đồng hồ. Tang trống cong phình đều, trang trí 6 hình thuyền chiến, các chiến binh, chim, thú... Thân trống hình trụ đứng trang trí hình người hóa trang nhảy múa trong ô hình chữ nhật. Chân trống choãi hình nón cụt.   Tất cả các đề tài trang trí trên trống phản ánh đời sống vật chất và tinh thần của cư dân Việt cổ. Với vẻ đẹp hoàn hảo, hình dáng hài hòa, cân đối, hoa văn tinh xảo, phong phú, Trống Ngọc Lũ là hiện vật đặc sắc, quý hiếm, có giá trị trên nhiều phương diện về lịch sử và văn hóa Việt Nam, thể hiện đỉnh cao của nghệ thuật luyện kim, đúc đồng của cư dân Đông Sơn. Các đề tài trang trí trên Trống Ngọc Lũ đã hội tụ đầy đủ tri thức và quan niệm nhân sinh sâu sắc cũng như tài năng, nghệ thuật và tâm hồn của người Việt cổ, trở thành biểu tượng của văn hóa Việt Nam.",
+			"thumbnail":"/images/trong_ngoc_lu.jpg",
+			"items":[
+				"https://hcloud.trealet.com/cache/Nhom01/Images/1/2-4hbfm8yc_w630_h630.png",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/1&i=3-dwzcs3rm.png","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/1&i=3-k45ms2g7.png","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/1&i=4-iprbhyxc.png","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/1&i=19-hdpzewav.png","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/1&i=19-timtc2ee.png","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/1&i=21-k9z7yvin.png","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/1&i=22-t6t0hjjc.png","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/1&i=23-rptahuld.png","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/1&i=24-8jbw1kvk.png","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/1&i=25-9e3ydj6j.png","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/1&i=25-jxepq0py.png","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/1&i=28-khxovvtd.png"
+			],
+			"videos":[
+				"https://www.youtube.com/embed/p-4aQ34aFAc",
+				"https://www.youtube.com/embed/fATv9SNu19A"
+			],
+			"isNotable": false
+		},
+		{
+			"itemID":1111,
+			"title":"CÂY ĐÈN HÌNH NGƯỜI QUỲ",
+			"shortTitle":"Cây đèn hình người quỳ",
+			"titleImage":"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/avatar&i=5.jpg",
+			"info":{
+				"Chất liệu":"Đồng",
+				"Kích thước":"Chiều cao: 40cm; Chiều dài: 30cm; Chiều rộng: 27cm",
+				"Niên đại":"Văn hoá Đông Sơn, khoảng 2500 - 2000 năm cách ngày nay",
+				"Nơi phát hiện":"Lạch Trường, Hoằng Hóa, Thanh Hóa, năm 1935",
+				"Công nhận":"Là Bảo vật quốc gia theo Quyết định số 1426/QĐ-TTg ngày 01/10/2012 của Thủ tướng Chính phủ."
+			},
+			"decs":"Cây đèn được nhà khảo cổ học Thụy Điển, Olov Janse, phát hiện trong quá trình khai quật ngôi mộ cổ ở Lạch Trường (Hoằng Hóa, Thanh Hóa) và chuyển về Bảo tàng Louis Finot (nay là Bảo tàng Lịch sử quốc gia) năm 1935.  Cây đèn được tạo hình người đàn ông mình trần, đóng khố trong tư thế quỳ, hai tay bưng đĩa đèn. Tóc cuộn hình xoắn ốc, vấn khăn, đeo hoa tai. Đôi mắt mở to, mí dài, lông mày nổi cao, sống mũi thanh tú, môi dày, miệng mỉm cười. Hai vai và trên lưng có 3 giá đỡ đèn tạo hình chữ “S”. Giữa mỗi giá đỡ, trên hai đùi và sau lưng pho tượng được gắn thêm các khối tượng nhỏ là những nhạc công cũng trong tư thế quỳ. Tượng đeo nhiều đồ trang sức như: vòng cổ, vòng tay và thắt lưng hình hoa sen.  Hoa văn trang trí, đặc điểm nhân chủng, công dụng làm cho cây đèn Lạch Trường có vị trí đặc biệt trong hệ thống đèn Việt Nam, đại diện cho một phong cách nghệ thuật độc đáo, với tư duy thẩm mỹ sâu sắc, kỹ thuật đúc đồng điêu luyện, đặc biệt là nghệ thuật đúc tượng tròn của cư dân giai đoạn văn hóa Đông Sơn muộn. Cây đèn còn là minh chứng thể hiện sự giao lưu, tiếp biến văn hóa khá sôi động ở những thế kỷ đầu Công nguyên.",
+			"thumbnail":"/images/cay-den-hinh-nguoi-quy.jpg",
+			"items":[
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/5&i=1-ug3cbnhd.jpg","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/5&i=2-pi5m0ksr.jpg","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/5&i=3-eduwn3ex.jpg","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/5&i=4-orx35ytr.jpg","https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/5&i=7-7dfvylmf.jpg"
+			],
+			"videos":["https://www.youtube.com/embed/gzNTvkxYFIE"],
+			"isNotable": true
+		},
+		{
+			"itemID":1112,
+			"title":"TRỐNG CẢNH THỊNH",
+			"shortTitle":"Trống Cảnh Thịnh",
+			"titleImage":"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/avatar&i=13.jpg",
+			"info":{
+				"Chất liệu":"Đồng",
+				"Kích thước":"Đường kính mặt: 49cm; Chiều cao: 37,4cm",
+				"Niên đại":"Niên hiệu Cảnh Thịnh 8, triều Tây Sơn (năm 1800)",
+				"Nơi phát hiện":"Ninh Hiệp, Gia Lâm, Hà Nội.",
+				"Công nhận":"Là Bảo vật quốc gia theo Quyết định số 1426/QĐ-TTg ngày 01/10/2012 của Thủ tướng Chính phủ."
+			},
+			"decs":"Trống hình trụ, được đúc theo dáng trống da truyền thống. Mặt trống cong vồng, chính giữa (biểu tượng của mặt trời) được tạo bởi đường tròn kép. Thân trống chia làm 3 phần, phân cách bằng 2 đường gân nổi. Trống có 4 quai hình khuyên, cách đều trên thân. Thân trống, từ trên xuống dưới, đúc nổi các băng hoa văn: nhũ đinh, lá đề, hồi văn chữ T, các đề tài tứ linh (long, ly, quy, phượng), Long Mã cõng Hà Đồ, Thần Quy chở Lạc Thư và lá hóa Thao Thiết.  Minh văn khắc trên thân cho biết trống được đúc vào tháng 4 nhuận năm Cảnh Thịnh thứ 8 thời Tây Sơn (1800) tại Chùa Cả (Linh Ứng tự), tức Chùa Nành, xã Ninh Hiệp, Gia Lâm, Hà Nội ngày nay. Đặc biệt, bài minh dài 222 chữ dẫn thuyết lý do, mục đích đúc trống nói về người trong xã là bà Nguyễn Thị Lộc, vợ của Tổng Thái giám Giao quận công vào năm Vĩnh Hựu thứ 2 đời vua Lê Ý Tông (1736) đã tập phúc góp công dựng chùa Linh Ứng. Ghi nhớ công lao của bà, nhân dân trong xã đã cùng nhau đóng góp công sức, tiền của đúc trống và những đồ thờ khác dâng lên ban Phật để lưu truyền, nhắc nhở con cháu đời sau luôn ghi nhớ công đức của tiền nhân.   Trống Cảnh Thịnh chứa đựng những giá trị tiêu biểu về lịch sử, văn hóa dân tộc, đặc biệt là thể hiện sự bảo tồn, phát triển truyền thống đúc và sử dụng trống đồng của người Việt qua hơn hai ngàn năm lịch sử.",
+			"thumbnail":"/images/trong_canh_thinh.jpg",
+			"items":[
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/13&i=1-wiqysmaj.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/13&i=2-ger7go1c.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/13&i=3-htuurobt.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/13&i=4-v4njswah.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/13&i=5-62yrq3zn.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/13&i=6-nfwv1qen.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/13&i=7-zmvu51au.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/13&i=8-dn4jizr9.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/13&i=9-gf66rmos.jpg",
+				"https://hcloud.trealet.com/zp-core/i.php?a=Nhom01/Images/13&i=10-smla79vz.jpg"
+			],
+			"videos":[
+				"https://www.youtube.com/embed/4y1qXPlq6zM",
+				"https://www.youtube.com/embed/dWY9mqNINLM"
+			],
+			"isNotable": false
+		}
+	]
+}
